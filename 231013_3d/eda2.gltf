@@ -1,0 +1,171 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 37700,
+            "type": "VEC3",
+            "max": [
+                184.3076934814453,
+                119.42859649658203,
+                101.375
+            ],
+            "min": [
+                34.7176513671875,
+                91.75,
+                35.66667175292969
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 37700,
+            "type": "VEC3",
+            "max": [
+                0.9999608993530273,
+                0.9999452829360962,
+                1.0
+            ],
+            "min": [
+                -0.9998304843902588,
+                -0.9999994039535523,
+                -0.9997166991233826
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 38964,
+            "type": "SCALAR",
+            "max": [
+                37699
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 1060656,
+            "uri": "eda2.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 452400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 452400,
+            "byteLength": 452400,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 904800,
+            "byteLength": 155856,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "plant4-mesh",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "Scene",
+            "matrix": [
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -1.0,
+                0.0,
+                0.0,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "plant4",
+            "matrix": [
+                0.9869340062141419,
+                0.08447994291782379,
+                -0.13720209896564485,
+                0.0,
+                -0.04448341950774193,
+                -0.6755698919296265,
+                -0.7359527945518494,
+                0.0,
+                -0.1548628956079483,
+                0.7324401140213013,
+                -0.6629849076271057,
+                0.0,
+                -89.65733337402344,
+                10.075090408325196,
+                135.8302001953125,
+                1.0
+            ],
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
